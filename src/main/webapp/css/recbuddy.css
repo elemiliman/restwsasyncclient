@@ -1,0 +1,141 @@
+textarea{
+	width:100%;
+}
+
+.errors {
+	color: #A94442;
+	font-size: 12px;
+}
+
+.pagination{
+	margin-top: 20px;
+	margin-bottom: 40px
+}
+
+.homepage-status{
+	text-align: center;
+	margin-top: 30px;
+	font-szie: larger
+}
+
+.login-error{
+	margin-top:10px;
+	margin-bottom:10px;
+	color: #A94442;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+/*
+ * Flash Message Alert
+ */
+#floating_alert{
+	position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 5000;
+}
+
+/*
+ * Http Error Message
+ */
+#error-message{
+	font-size:larger;
+	margin-top:40%;
+}
+.errorCode{
+	font-size:8em;
+}
+
+.profile-about{
+	text-align: center;
+	width:100%;
+	border:2px solid gray;
+	padding:50px 50px 0px 50px;
+	overflow:auto;
+}
+.profile-image img{
+  	display: block;
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+.profile-about-edit{
+	position:relative;
+	bottom:0px;
+	float:right;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#profile-photo-status{
+	position: absolute;
+	top: 5px;
+	left: 65px;
+	font-weight: bold;
+	color: green;
+}
+#photoUploadForm{
+	display:none;
+}
+
+ul#interestList{
+	border: 1px solid gray;
+}
+
+ul.tagit > li.tagit-choice {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+ul#interestList a.tagit-close > span.text-icon{
+	display: inline;
+	color: white;
+	padding-left: 10px;
+	padding-right: 3px;
+	font-size: 1.2em;
+}
+
+ul#interestList a.tagit-close:hover{
+	text-decoration: none;
+}
+
+ul#interestList a.tagit-close:hover > span.text-icon{
+	color: gray;
+}
+
+div[role=status]{
+	display: none;
+}
+
+#ui-id-1{
+	display:none !important;
+}
+
+/*
+ * List of Results
+ */
+ 
+ .results-photo{
+ 	padding-right:10px;
+ }
+ 
+ .results-details{
+ 	margin-top:20x;
+ 	
+ }
+ .results-name{
+ 	font-size:1.6em;
+ 	font-weight:bold;
+ }
+ .results-interests{
+ 	font-size:1.3em;
+ }
+ 
+ .person-row{
+ 	border: 2px solid black;
+ 	margin-bottom:1em;
+ 	padding:15px;
+ }
+	
